@@ -53,12 +53,14 @@
   #Team{
     height: 100%;
     width: 99%;
+    margin-left: -5px;
     justify-content: center;
     align-items: center;
     text-align: center;
     border: 3mm ridge rgba(233, 176, 55, 0.719);       
     background-color:rgb(190, 102, 95);
     border-bottom: hidden;
+    margin-bottom:-20px;
 }
 /* Title */
 #Team h1{
@@ -163,6 +165,7 @@
     border-top: hidden;
     margin-left: -5px;
     width: 99%;
+    margin-top: 20px;
     height: 735px;
 }
 
@@ -214,3 +217,250 @@
     border-radius: 5px;
     font-size: 1.2rem;
 }
+
+
+
+
+                /* Responsive designning Starts from here */
+
+        @media(max-width:1250px){
+            #navbar li a {
+                color:whitesmoke;
+                font-family: 'Times New Roman', Times;
+                font-size: 1.3vw;
+    
+                }
+            .team-members img{
+                width: 14vh;
+                height: 14vh;
+            }
+            #Team h1{
+                font-size: 5vw;
+            }
+        }
+        @media (max-width:1110px){
+            .aviral img{
+                width: 18vh;
+                height: 18vh;
+            }
+            .Ravi img{
+                width: 17vh;
+                height: 18vh;             
+            }
+            #vol{
+                height: auto;
+                width: auto;
+            }
+            #Team{
+                height: auto;
+                width: auto;
+            } 
+            }
+                @media(max-width:938px){
+                    .portfolio a{
+                        font-size: 2.1vw;
+                    }
+                    .team h2{
+                        font-size: 3.5vw;
+                    }
+                    .aviral img{
+                        margin-left:270px;
+                    }
+                    .Ravi img{
+                            margin-left: 70px;
+                    }
+                        .aviral span{
+                        font-size: 2vw;
+                        margin-left: 255px;
+                    }
+                    .Ravi span{
+                        margin-left: 50px;
+                        font-size: 2vw;
+                    }
+                
+                }
+            @media(max-width:915px){
+                .aviral span{
+                    font-size: 2vw;
+                    margin-left: 280px;
+                }
+                .Ravi span{
+                    margin-left:80px;
+                    font-size: 2vw;
+                }
+                .team-members span{
+                    font-size: 2vw;
+                }
+            }
+                @media(max-width:890px){
+                    #Volunteers-1{
+                        display: flex;
+                        flex-direction: column;
+                    }
+                    #Volunteers-2{
+                        display: flex;
+                        flex-direction: column;
+
+                    }
+                    #team-members-1{
+                        display: flex;
+                        flex-direction: column;
+                    }
+                    #team-members-2{
+                        display: flex;
+                        flex-direction: column;
+                    }
+                    .team-members img{
+                        width: 19vh;
+                        height: 19vh;
+                    }
+                }
+                @media(max-width:760px){
+                    .Ravi span {
+                        margin-left: 90px;
+                        font-size: 2vw;
+                    }
+                    .Ravi span {
+                        margin-left: 55px;
+                        font-size: 2vw;
+                    }
+                    .aviral img {
+                        margin-left: 170px;
+                    }
+                    .aviral span {
+                        font-size: 2vw;
+                        margin-left: 160px;
+                    }
+                    
+                }
+                @media(max-width:700px){
+                    .team-members span{
+                        font-size: 3vw;
+                    }
+                    .portfolio a{
+                        font-size: 3vw;
+                    }
+                }
+                @media(max-width:590px){
+                    .Ravi span {
+                        margin-left: 60px;
+                        font-size: 3vw;
+                    }
+                    .aviral img {
+                        margin-left: 70px;
+                    }
+                    .aviral span {
+                        font-size: 3vw;
+                        margin-left: 60px;
+                    }
+                }
+
+                @media(max-width:500px){
+                    .developer{
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        text-align: center;
+                    }
+                    .team-members img{
+                        width: 14vh;
+                        height: 14vh;
+                    }
+                    .Ravi span{
+                        font-size: 4vw;
+                        margin-left: 0px;
+
+                    }
+                    .aviral span{
+                        font-size: 4vw;
+                        margin-left: 0px;
+
+                    }
+                    .Ravi img{
+                        width: 14vh;
+                        height: 15vh;
+                        margin-left: 0px;
+
+                    }
+                    .aviral img{
+                        width: 15vh;
+                        height: 15vh;
+                        margin-left: 0px;
+
+                    }
+                    .team-members span{
+                        font-size: 4vw;
+                    }
+                    .portfolio a{
+                        font-size: 4vw;
+
+                    }
+
+                }
+
+                @media (max-width:330px){
+                    .team-members img{
+                        width: 12vh;
+                        height: 12vh;
+                    }
+                    .Ravi span{
+                        font-size: 4.5vw;
+                        margin-left: 0px;
+
+                    }
+                    .aviral span{
+                        font-size: 4.5vw;
+                        margin-left: 0px;
+
+                    }
+                    .Ravi img{
+                        width: 13vh;
+                        height: 14vh;
+                        margin-left: 0px;
+
+                    }
+                    .aviral img{
+                        width: 14vh;
+                        height: 14vh;
+                        margin-left: 0px;
+
+                    }
+                    .team-members span{
+                        font-size: 4.5vw;
+                    }
+                    .portfolio a{
+                        font-size: 4.5vw;
+
+                    }
+                }
+
+      /* Developed By Ravi Kant Gupta */
+
+
+                                /* Responsive Footer  */
+
+     @media ( max-width:1150px){
+            footer{
+                font-size: 1.5vw;
+                }
+                            
+         }
+        @media ( max-width:950px){
+            footer{
+                font-size: 1.6vw;
+            }
+        }
+                          
+                    
+    @media ( max-width:650px){
+            footer{
+                font-size: 2vw;
+            }
+    }
+                  
+         @media ( max-width:450px){
+            footer{
+                    font-size: 3vw;
+            }
+    }
