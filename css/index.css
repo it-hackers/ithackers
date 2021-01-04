@@ -59,8 +59,8 @@
             flex-direction: column;
             justify-content: center;
             height: 600px;
+            margin-bottom: -7px;
             text-align: center;
-            margin-bottom: 20px;
         }
         #Home h2{
             color: crimson;
@@ -87,7 +87,8 @@
             height: 100%;
             z-index: -1;
             content: "";
-            background-position: center ;
+            background-position: center;
+            background-size:cover;
         }
         #Home span{
             color: rgb(185, 63, 88);
@@ -162,25 +163,6 @@
 
         }
         .unofficial span{
-            font-size: 1.5rem;
-            color: gold;
-            font-family: 'Lobster', cursive;
-            margin-left: 110px;
-        }
-        .SCRIET-Portfolio img{
-            border: thick double #86d6ee;
-            border-radius: 50%;        
-            margin-left: 80px;
-            transition: transform .4s;
-            width: 185px;   
-            height: 185px;
-            background-color: #fff;
-        }
-        .SCRIET-Portfolio a :hover{
-            transform: scale(1.2); 
-
-        }
-        .SCRIET-Portfolio span{
             font-size: 1.5rem;
             color: gold;
             font-family: 'Lobster', cursive;
@@ -353,6 +335,794 @@
             background-color: brown;
             color: white;
             text-align: center;
-            border-radius: 5px;
             font-size: 1rem;
         }
+
+
+        /* Responsive Webpage Styling */                    
+                                                /*Developed By Ravi Kant Gupta */
+              
+        @media(min-width:1150px){
+            #Projects{
+                margin-top: 70px;
+            }
+
+        }
+          /* Landing Section Styling */
+          @media (max-width:1510px){
+              #Home h2{
+                  font-size: 3.5vw;
+              }
+              #Home span{
+                  font-size: 2vw;
+              }
+          }
+          @media(max-width:1510px){
+              #Projects{
+                  margin-top: 0px;
+              }
+          }
+          @media (max-width:1100px){
+              #Home h2{
+                  font-size: 4vw;
+              }
+              #Home span{
+                  font-size: 3vw;
+              }
+          }
+          @media (max-width:900px){
+              #Home h2{
+                  font-size: 5vw;
+              }
+              #Home span{
+                  font-size: 3.5vw;
+              }
+          }
+          @media (max-width:600px){
+              #Home h2{
+                  font-size: 7vw;
+              }
+              #Home span{
+                  font-size: 4.2vw;
+              }
+              #Home::before{
+                width: 100vw;
+                height: 100vh;
+            }
+            #Projects{
+                margin-top: 0px;
+            }
+          }
+          @media (max-width:400px){
+            #Home h2{
+                font-size: 8vw;
+            }
+            #Home {
+                margin-bottom: -36px;
+            }
+            #Home span{
+                font-size: 6vw;
+            }
+        }
+         
+
+
+
+
+
+
+                                        /* About Section Styling */
+    
+
+
+      @media (max-width: 1510px){
+        
+            .about p {
+                color: burlywood;
+                font-size: 1.4vw;
+            }
+
+            #About h1{
+                font-size: 4vw;
+            }
+
+        }
+
+        @media (max-width:1110px){
+            .about img {
+                width: 25vw;
+                height: 30vh;
+        }
+        .about p {
+            margin-top: 0px;
+            font-size: 1.7vw;
+        }
+
+    }
+        @media (max-width:950px){
+            .about img {
+                width: 25vw;
+                height: 30vh;
+        }
+        .about p {
+            margin-top: 84px;
+            font-size: 1.9vw;
+            padding: 8px 10px;
+        }
+
+    }
+        @media (max-width:910px){
+         .about{
+             flex-direction: column;
+         }
+         .about img{
+            width: 25vh;
+            height: 25vh;
+            margin: 0px;
+         }
+         .about p {
+            margin: 10px;
+            font-size: 1.7vw;
+         }
+         #About{
+             height: auto;
+             width: auto;
+         }
+
+    }
+
+    @media (max-width:870px){
+        .about p{
+            margin-top: 0px;
+            margin:10px;
+            font-size: 1.8vw;
+            padding: 2px;
+        }
+        #About h1{
+            font-size: 6vw;
+        }
+        .about img{
+            width: 20vh;
+            height: 20vh;
+         }
+
+    }
+    @media (max-width:750px){
+        .about p{
+            margin-top: 0px;
+            margin:10px;
+            font-size: 2vw;
+            padding: 2px;
+        }
+
+       
+    }
+    @media (max-width:650px){
+        .about p{
+            margin-top: 0px;
+            font-size: 2.4vw;
+            padding: 2px;
+        }
+      
+
+        .about img{
+            width: 18vh;
+            height:18vh;
+            margin-left: -10px;
+        }
+
+    }
+    @media (max-width:550px){
+        #About h1{
+            font-size: 7vw;
+        }
+        .about p{
+            margin-top: 0px;
+            margin:10px;
+            font-size: 2.7vw;
+            padding: 0px;
+        }
+
+        .about img{
+            width: 15vh;
+            height: 15vh;
+            margin-left: -10px;
+        }
+    }
+    @media (max-width:450px){
+        .about p{
+            margin-top: 0px;
+            margin:10px;
+            font-size: 3.2vw;
+            padding: 0px;
+        }
+
+
+        .about img{
+            width: 16vh;
+            height: 17vh;
+            margin-left: -10px;
+        }
+
+    }
+    @media (max-width:350px){
+        .about p{
+            margin-top: 0px;
+            margin:10px;
+            font-size: 3.5vw;
+            padding: 0px;
+        }
+
+        .about img{
+            width: 15vh;
+            height: 15vh;
+        }
+
+    }
+    @media (max-width:300px){
+        .about p{
+            margin-top: 0px;
+            margin:10px;
+            font-size: 4vw;
+            padding: 0px;
+        }
+
+        .about img{
+            width: 15vh;
+            height: 15vh;
+        }
+
+    }
+
+                                /* Responsive club Designing Section */
+                                   
+    @media (max-width: 1510px){
+        #navbar li a {
+            color:whitesmoke;
+            font-family: 'Times New Roman', Times;
+            font-size: 1.3vw;
+
+            }
+            .club p {
+                animation: ani1 5s infinite;
+                color: burlywood;
+                font-size: 1.1vw;
+            }
+
+            #Club h1{
+                font-size: 4vw;
+            }
+            #Club span{
+                font-size: 2.5vw;
+            }
+
+        }
+
+        @media (max-width:1110px){
+            .club img {
+                width: 25vw;
+                height: 30vh;
+        }
+        .club p {
+            animation: ani1 5s infinite;
+            margin-top: 0px;
+            font-size: 1.259vw;
+        }
+        #Club span{
+            margin-left: 300px;
+        }
+        #Join {
+            width: 16vw;
+            height: 3vw;
+            margin-top: 10px;
+        }
+
+    }
+        @media (max-width:950px){
+            .club img {
+                width: 25vw;
+                height: 30vh;
+        }
+        .club p {
+            margin-top: 84px;
+            font-size: 1.5vw;
+            padding: 8px 10px;
+        }
+        #Club span{
+            margin-left: 300px;
+        }
+        #Join {
+            width: 16vw;
+            height: 3vw;
+            margin-top: 30px;
+        }
+
+    }
+        @media (max-width:910px){
+         .club{
+             flex-direction: column;
+         }
+         .club img{
+            width: 15vh;
+            height: 15vh;
+            margin-left: -10px;
+            margin-top: 19px;
+         }
+         .club p {
+            margin-top: 0px;
+            margin: 10px;
+            font-size: 1.3vw;
+            padding: 10px 50px;
+         }
+         #Club span{
+            margin-left: 0px;
+            margin: 20px;
+         }
+         #Club{
+             height: auto;
+             width: auto;
+         }
+         #Join {
+            width: 16vw;
+            height: 4vw;
+            margin: 2px;
+        }
+
+    }
+
+    @media (max-width:870px){
+        .club p{
+            margin-top: 0px;
+            margin:10px;
+            font-size: 1.5vw;
+            padding: 2px;
+        }
+        .club img{
+            width: 14vh;
+            height: 14vh;
+            margin-left: -10px;
+            margin-top: 19px;
+         }
+
+    }
+    @media (max-width:750px){
+        .club p{
+            margin-top: 0px;
+            margin:10px;
+            font-size: 1.7vw;
+            padding: 2px;
+        }
+
+        #Join {
+            width: 18vw;
+            height: 4vw;
+            margin: 2px;
+        }
+    }
+    @media (max-width:650px){
+        .club p{
+            margin-top: 0px;
+            margin: 10px;
+            font-size: 2vw;
+            padding: 2px;
+        }
+
+        .club img{
+            width: 15vh;
+            height: 15vh;
+        }
+
+        #Join {
+            width: 23vw;
+            height: 5vw;
+            margin: 20px;
+        }
+    }
+    @media (max-width:550px){
+        .club p{
+            margin-top: 0px;
+            margin: 10px;
+            font-size: 2.3vw;
+            padding: 0px;
+        }
+
+        .club img{
+            width: 12vh;
+            height: 12vh;
+            margin-left: -10px;
+        }
+        #Join {
+            width: 26vw;
+            width: 30vw;
+            height: 8vw;
+            
+        }
+    }
+    @media (max-width:400px){
+        .club p{
+            margin-top: 0px;
+            margin:10px;
+            font-size: 2.7vw;
+            padding: 0px;
+        }
+
+        .club img{
+            width: 13vh;
+            height: 13vh;
+            margin-left: -10px;
+        }
+
+    }
+    @media (max-width:350px){
+        .club p{
+            margin-top: 0px;
+            margin:10px;
+            font-size: 2.8vw;
+            padding: 0px;
+        }
+
+        .club img{
+            width: 12vh;
+            height: 12vh;
+            margin-left: -10px;
+        }
+        #Join{
+            width: 35vw;
+            height: 8vw;
+        }
+
+    }
+    @media (max-width:300px){
+        .club p{
+            margin-top: 0px;
+            margin:10px;
+            font-size: 3vw;
+            padding: 0px;
+        }
+
+        .club img{
+            width: 10vh;
+            height: 10vh;
+            margin-left: -10px;
+        }
+        #Join {
+            width: 40vw;
+            height: 10vw;
+
+    }
+
+    }
+
+                        /* Projects Responsive designing */
+
+    @media (max-width:1150px){
+        #Projects{
+            width: auto;
+            height: auto;
+        }
+        #Projects h1{
+            font-size: 4.5vw;
+        }
+
+            .learningpeeps img{
+                width: 17vh;
+                height: 17vh;
+            }
+
+            .unofficial img{
+                 width: 17vh;
+                height: 17vh;
+            }
+
+            .Cheap-Deals img{
+                 width: 17vh;
+                height: 17vh;
+            }
+            .delish img{
+                 width: 17vh;
+                height: 17vh;               
+            }
+            .learningpeeps span{
+                font-size: 2.4vw;
+                margin-left: 80px;
+            }
+
+            .unofficial span{
+                font-size: 2.4vw;
+                margin-left: 80px;
+
+            }
+
+            .Cheap-Deals span{
+                font-size: 2.4vw;
+                margin-left: 80px;
+
+            }
+            .delish span{
+                font-size: 2.4vw;
+                margin-left: 80px;
+
+            }
+    }
+            @media (max-width:1000px){
+                #Projects h1{
+                    font-size: 4vw;
+                }
+                .learningpeeps img{
+                    width: 13vh;
+                    height: 13vh;
+                    margin-left: 20px;
+                }
+    
+                .unofficial img{
+                     width: 13vh;
+                    height: 13vh;
+                    margin-left: 20px;
+                }
+    
+                .Cheap-Deals img{
+                     width: 13vh;
+                    height: 13vh;
+                    margin-left: 20px;
+                }
+                .delish img{
+                     width: 13vh;
+                    height: 13vh;
+                    margin-left: 20px;               
+                }
+                .learningpeeps span{
+                    font-size: 1.8vw;
+                    margin-left: 0px;
+                }
+    
+                .unofficial span{
+                    font-size: 1.8vw;
+                    margin-left: 5px;
+    
+                }
+    
+                .Cheap-Deals span{
+                    font-size: 1.8vw;
+                    margin-left:5px;
+    
+                }
+                .delish span{
+                    font-size: 1.8vw;
+                    margin-left: 5px;
+    
+                }
+            }
+
+            @media (max-width:800px){
+                .learningpeeps img{
+                    width: 15vh;
+                    height: 15vh;
+                    margin-left: 20px;
+                }
+    
+                .unofficial img{
+                     width: 15vh;
+                    height: 15vh;
+                    margin-left: 20px;
+                }
+    
+                .Cheap-Deals img{
+                     width: 15vh;
+                    height: 15vh;
+                    margin-left: 20px;
+                }
+                .delish img{
+                     width: 15vh;
+                    height: 15vh;
+                    margin-left: 20px;               
+                }
+                .learningpeeps span{
+                    font-size: 2.5vw;
+                    margin-left: 0px;
+                }
+    
+                .unofficial span{
+                    font-size: 2.5vw;
+                    margin-left: 5px;
+    
+                }
+    
+                .Cheap-Deals span{
+                    font-size: 2.5vw;
+                    margin-left:5px;
+    
+                }
+                .delish span{
+                    font-size: 2.5vw;
+                    margin-left: 5px;
+    
+                }
+            }
+
+            @media (max-width:600px){
+                .learningpeeps img{
+                    width: 12vh;
+                    height: 12vh;
+                    margin-left: 20px;
+                }
+    
+                .unofficial img{
+                     width: 12vh;
+                    height: 12vh;
+                    margin-left: 20px;
+                }
+    
+                .Cheap-Deals img{
+                     width: 12vh;
+                    height: 12vh;
+                    margin-left: 20px;
+                }
+                .delish img{
+                     width: 12vh;
+                    height: 12vh;
+                    margin-left: 20px;               
+                }
+                .learningpeeps span{
+                    font-size: 2.5vw;
+                    margin-left: 0px;
+                }
+    
+                .unofficial span{
+                    font-size: 2.5vw;
+                    margin-left: 5px;
+    
+                }
+    
+                .Cheap-Deals span{
+                    font-size: 2.5vw;
+                    margin-left:5px;
+    
+                }
+                .delish span{
+                    font-size: 2.5vw;
+                    margin-left: 5px;
+    
+                }
+            }
+                @media(max-width:500px){
+                    #Projects h1{
+                        font-size: 6vw;
+                    }
+                        .learningpeeps img{
+                            width: 8vh;
+                            height: 8vh;
+                            margin-left: 20px;
+                        }
+            
+                        .unofficial img{
+                             width: 8vh;
+                            height: 8vh;
+                            margin-left: 20px;
+                        }
+            
+                        .Cheap-Deals img{
+                             width: 8vh;
+                            height: 8vh;
+                            margin-left: 20px;
+                        }
+                        .delish img{
+                             width: 8vh;
+                            height: 8vh;
+                            margin-left: 20px;               
+                        }
+                        .learningpeeps span{
+                            font-size: 2.3vw;
+                            margin-left: 0px;
+                        }
+            
+                        .unofficial span{
+                            font-size: 2.3vw;
+                            margin-left: 5px;
+            
+                        }
+            
+                        .Cheap-Deals span{
+                            font-size: 2.3vw;
+                            margin-left:5px;
+            
+                        }
+                        .delish span{
+                            font-size: 2.3vw;
+                            margin-left: 5px;
+            
+                        }
+                    }
+                @media(max-width:400px){
+                    .projects-1{
+                        flex-direction: column;
+                    }
+                    .projects-2{
+                        flex-direction: column;
+                    }
+                    .learningpeeps img{
+                        width: 12vh;
+                        height: 12vh;
+                        margin-left: 20px;
+                    }
+        
+                    .unofficial img{
+                         width: 12vh;
+                        height: 12vh;
+                        margin-left: 20px;
+                    }
+        
+                    .Cheap-Deals img{
+                         width: 12vh;
+                        height: 12vh;
+                        margin-left: 20px;
+                    }
+                    .delish img{
+                         width: 12vh;
+                        height: 12vh;
+                        margin-left: 20px;               
+                    }
+                    .learningpeeps span{
+                        font-size: 4vw;
+                        margin-left: 0px;
+                    }
+        
+                    .unofficial span{
+                        font-size: 4vw;
+                        margin-left: 5px;
+        
+                    }
+        
+                    .Cheap-Deals span{
+                        font-size: 4vw;
+                        margin-left:5px;
+        
+                    }
+                    .delish span{
+                        font-size: 4vw;
+                        margin-left: 5px;
+        
+                    }
+                }
+                
+
+      
+
+
+
+
+
+
+
+
+
+
+
+                /* Developed By Ravi Kant Gupta */
+
+
+                                /* Responsive Footer  */
+
+                    @media ( max-width:1150px){
+                            footer{
+                                    font-size: 1.5vw;
+                            }
+                    
+                }
+                @media ( max-width:950px){
+                    footer{
+                            font-size: 1.6vw;
+                    }
+                }
+                  
+            
+            @media ( max-width:650px){
+                    footer{
+                            font-size: 2vw;
+                    }
+            }
+          
+                @media ( max-width:450px){
+                    footer{
+                            font-size: 3vw;
+                    }
+            }
